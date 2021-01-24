@@ -1,6 +1,7 @@
 //Importar o modulo Discord.js
 const Discord = require('discord.js');
-
+// Importar dotenv para fazer macumba
+require('dotenv').config()
 //Importar o arquivo JSON com as configurações
 const { prefix } = require('./config.json');
 
