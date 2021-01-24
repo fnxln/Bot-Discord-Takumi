@@ -35,29 +35,6 @@ client.once('ready', () => {
         }
         console.log(data)
     });
-
-    /*const activities_list = [
-        "Explorando o Ubuntu Mate", 
-        "Tentando instalar o Arch Linux",
-        "Analisando o Ubuntu", 
-        "Trabalhando com o Mint",
-        "Usando o Kali porque sou hacker",
-        "Fujicando no ElementaryOS",
-        "Preparando o PC com o SteamOS",
-        "Instalando o Ubuntu Minimal no PC de pedra",
-        "Desenvolvendo no PopOS_Linux",
-        "Jogando no Manjaro",
-        "Vendo se o MXLinux é tão bom assim",
-        "Arriscando o Gentoo",
-        "Rodando o Bot no CentOS",
-        "Usando OpenBSD",
-        "Doom Emacs é bom sim!"
-    ]
-
-    setInterval(function(){
-        var status = activities_list[Math.floor(Math.random() * activities_list.length)]
-        client.user.setPresence({ activity: {name: status}, status:'online'})
-    }, 100000)*/
 });
 
 //Codigo para pegar os comandos da pasta e executar em ordem

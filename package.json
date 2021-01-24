@@ -5,7 +5,6 @@
   "main": "bot.js",
   "author": "Drack112",
   "license": "MIT",
-  
   "dependencies": {
     "discord.js": "^12.5.1",
     "eslint": "^7.18.0",
