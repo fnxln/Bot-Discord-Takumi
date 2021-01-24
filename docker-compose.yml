@@ -1,0 +1,5 @@
+services:
+  bot:
+    image: drack112/fujiwara-takumi:latest
+    environment:
+    - DISCORD_TOKEN= 

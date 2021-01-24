@@ -2,11 +2,13 @@
 const Discord = require('discord.js');
 
 //Importar o arquivo JSON com as configurações
-const { token, prefix } = require('./config.json');
+const { prefix } = require('./config.json');
 
 //Importando cliente do Discord e sua biblioteca de comandos
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
+
+console.log(process.env.DISCORD_TOKEN);
 
 //Modulo FS para pegar os arquivos de comandos da pasta commands
 const fs = require('fs');
@@ -78,4 +80,4 @@ client.on('message', message => {
 });
 
 //token de acesso
-client.login(token);
+client.login(process.env.DISCORD_TOKEN);
