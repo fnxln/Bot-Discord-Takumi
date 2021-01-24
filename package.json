@@ -1,0 +1,17 @@
+{
+  "name": "bot-discord-takumi",
+  "version": "1.0.0",
+  "description": "Um bot simples para discord.",
+  "main": "bot.js",
+  "author": "Drack112",
+  "license": "MIT",
+  
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "eslint": "^7.18.0",
+    "figlet": "^1.5.0"
+  },
+  "scripts": {
+    "dev": "node bot.js"
+  }
+}
